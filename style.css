@@ -1,0 +1,62 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 70% 20%;
+}
+nav .ust {
+    background-color: aqua;
+    height: 60px;
+    border: 1px solid black;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    margin-top: 10px;
+}
+
+p{
+    font-size: medium;
+}
+
+.boxIn{
+    width: 90%;
+    margin:0 20px;
+}
+
+.boxIn >div{
+    width: 100%;
+    border: 1px solid black;
+    
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.boxIn1{
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.boxIn2{
+    background-color: aqua;
+    margin-top: 5px;
+    height: 230px;
+}
+
+.boxIn3{
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height:240px;
+}
+
+.boxIn4{
+    background-color: green;
+}
+footer{
+    background-color: green;
+    margin: 0px 20px;
+    text-align: center;
+}
